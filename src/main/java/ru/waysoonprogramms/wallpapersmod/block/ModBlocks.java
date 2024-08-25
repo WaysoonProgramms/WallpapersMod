@@ -22,8 +22,8 @@ public class ModBlocks {
     
     public static final RegistryObject<Block> WHITE_WALLPAPER = registerBlock("white_wallpaper",
             () -> new Wallpaper(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL)
-                    .noOcclusion()));
-    
+                    .noOcclusion()
+                    .replaceable()));
     
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

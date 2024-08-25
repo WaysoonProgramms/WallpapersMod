@@ -1,7 +1,19 @@
 ﻿{
   "variants": {
-    "": {
+    "facing=west": {
+      "model": "wallpapersmod:block/white_wallpaper",
+      "y": 180
+    },
+    "facing=east": {
       "model": "wallpapersmod:block/white_wallpaper"
+    },
+    "facing=north": {
+      "model": "wallpapersmod:block/white_wallpaper",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "wallpapersmod:block/white_wallpaper",
+      "y": 90
     }
   }
 }
